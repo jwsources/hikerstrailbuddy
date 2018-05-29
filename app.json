@@ -7,7 +7,7 @@
   ],
   "repository": "https://github.com/jwsources/hikerstrailbuddy",
   "scripts": {
-    "postdeploy": "npm run models/db.js"
+    "postdeploy": "node db.js"
   },
   "env": {
     "domain": {
