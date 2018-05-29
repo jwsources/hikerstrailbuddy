@@ -6,9 +6,6 @@
     "Node"
   ],
   "repository": "https://github.com/jwsources/hikerstrailbuddy",
-  "scripts": {
-    "postdeploy": ""
-  },
   "env": {
     "domain": {
       "description": "Salesforce login domain. Test is used for Scratch Orgs",
