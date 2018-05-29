@@ -1,5 +1,7 @@
 # Hikers' Trail Buddy
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## About
 Heroku demonstration app forked from [Bear Watch](https://github.com/pozil/bear-watch).
 This Hikers' Trail Buddy App is based on trail [Build an Instant Notification App](https://trailhead.salesforce.com/en/projects/workshop-platform-events)
