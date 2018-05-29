@@ -1,0 +1,44 @@
+{
+  "name": "Hikers Trail Buddy",
+  "description": "Heroku App to show message integration for Salesforce.",
+  "keywords": [
+    "Salesforce",
+    "Node"
+  ],
+  "repository": "https://github.com/jwsources/hikerstrailbuddy",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
+  "env": {
+    "domain": {
+      "description": "Salesforce login domain. Test is used for Scratch Orgs",
+      "value": "https://test.salesforce.com"
+    },
+    "apiVersion": {
+      "description": "Salesforce API.",
+      "value": "v42.0"
+    },
+    "callbackUrl": {
+      "description": "Connected App.",
+      "value": "https://hikerstrailbuddy.herokuapp.com//auth/callback"
+    },
+    "consumerKey": {
+      "description": "Salesforce API.",
+      "generator": "secret"
+    },
+    "consumerSecret": {
+      "description": "Salesforce API.",
+      "generator": "secret"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Standard-1X"
+    }
+  },
+  "image": "heroku/nodejs",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
