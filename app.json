@@ -23,11 +23,12 @@
       "value": "https://hikerstrailbuddy.herokuapp.com//auth/callback"
     },
     "consumerKey": {
-      "description": "Salesforce API.",
+      "description": "Concumer key of connected App.",
       "generator": "secret"
     },
     "consumerSecret": {
-      "description": "Salesforce API.",
+      "description": "Concumer secret of connected App.",
+
       "generator": "secret"
     }
   },
